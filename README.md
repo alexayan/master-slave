@@ -5,8 +5,8 @@
 ![Downloads](https://img.shields.io/npm/dm/node-master-slave.svg)
 ![Downloads](https://img.shields.io/npm/dt/node-master-slave.svg)
 ![npm version](https://img.shields.io/npm/v/node-master-slave.svg)
-![dependencies](https://img.shields.io/david/alexayan/node-master-slave.svg)
-![dev dependencies](https://img.shields.io/david/dev/alexayan/node-master-slave.svg)
+![dependencies](https://img.shields.io/david/alexayan/master-slave.svg)
+![dev dependencies](https://img.shields.io/david/dev/alexayan/master-slave.svg)
 ![License](https://img.shields.io/npm/l/node-master-slave.svg)
 
 Master-slave solution for single-point service based on redis
