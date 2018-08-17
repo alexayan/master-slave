@@ -16,13 +16,13 @@ Master-slave solution for single-point service based on redis
 Install it via npm:
 
 ```shell
-npm install master-slave
+npm install node-master-slave
 ```
 
 And include in your project:
 
 ```javascript
-import MasterSlaveClient from 'master-slave';
+import MasterSlaveClient from 'node-master-slave';
 const client = new MasterSlaveClient(redis); // ioredis client
 
 client.on("change", function(c) {

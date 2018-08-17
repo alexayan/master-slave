@@ -1,5 +1,5 @@
 {
-  "name": "master-slave",
+  "name": "node-master-slave",
   "description": "Master-slave solution for single-point service based on redis",
   "version": "0.1.0",
   "main": "lib/index.js",
