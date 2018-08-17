@@ -1,0 +1,25 @@
+{
+  "name": "master-slave",
+  "description": "Master-slave solution for single-point service based on redis",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "author": "alexayan",
+  "repository": "alexayan/master-slave",
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "prepublish": "npm run compile",
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-env": "^1.7.0",
+    "chai": "*",
+    "coveralls": "*",
+    "ioredis": "^4.0.0",
+    "isparta": "*",
+    "mocha": "*",
+    "sinon": "*"
+  }
+}
