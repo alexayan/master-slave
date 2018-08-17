@@ -1,3 +1,5 @@
+require("babel-core/register");
+require("babel-polyfill");
 import { EventEmitter } from "events";
 import logger from "./utils/logger";
 import getHost from "./utils/host";
@@ -9,7 +11,7 @@ export default class Client extends EventEmitter {
     beatInterval = 250,
     expire = 4,
     channel = "__REDIS_MASTER_SLAVE__"
-  }) {
+  } = {}) {
     super();
     this.id = null;
     this.type = "offline";

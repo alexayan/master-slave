@@ -1,7 +1,7 @@
 {
   "name": "node-master-slave",
   "description": "Master-slave solution for single-point service based on redis",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "author": "alexayan",
   "repository": "alexayan/master-slave",
@@ -14,7 +14,10 @@
   },
   "devDependencies": {
     "babel-cli": "*",
-    "babel-preset-env": "^1.7.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "chai": "*",
     "coveralls": "*",
     "ioredis": "^4.0.0",
