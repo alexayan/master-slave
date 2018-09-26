@@ -1,7 +1,7 @@
 {
   "name": "node-master-slave",
   "description": "Master-slave solution for single-point service based on redis",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "lib/index.js",
   "author": "alexayan",
   "repository": "alexayan/master-slave",
