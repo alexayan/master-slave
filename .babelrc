@@ -1,6 +1,10 @@
 {
   "presets": [
-    "es2015",
-    "stage-0"
-  ]
+    ["env", {
+      "target": {
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": ["transform-runtime"]
 }

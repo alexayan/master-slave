@@ -1,5 +1,3 @@
-require("babel-core/register");
-require("babel-polyfill");
 import { EventEmitter } from "events";
 import logger from "./utils/logger";
 import getHost from "./utils/host";
