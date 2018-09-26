@@ -22,5 +22,8 @@
     "isparta": "*",
     "mocha": "*",
     "sinon": "*"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
   }
 }
